@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Map
+title: map
 permalink: /map/
 description: Interactive map of science festivals in Italy and Europe.
 nav: true
