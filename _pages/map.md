@@ -120,7 +120,7 @@ fetch('/assets/data/festivals.json')
 function applyFilters() {
   allMarkers.forEach(marker => {
     const matchTheme = activeThemes.size === 0 || activeThemes.has(marker.festivalTheme);
-    const matchPublic = !activePublic || marker.festivalPublic.some(p => p.includes(activePublic));
+    const matchPublic = activePublic.size === 0 || marker.festivalPublic.some(p => [...activePublic].some(a => p.includes(a)));
     if (matchTheme && matchPublic) marker.addTo(map);
     else map.removeLayer(marker);
   });
