@@ -38,7 +38,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 let allMarkers = [];
 let activeThemes = new Set();
-let activePublic = '';
+let activePublic = new Set();
 
 fetch('/assets/data/festivals.json')
   .then(r => r.json())
@@ -126,10 +126,24 @@ document.querySelectorAll('.fbtn').forEach(btn => {
       }
     }
 
-    if (type === 'public') {
-      document.querySelectorAll('.fbtn[data-type="public"]').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activePublic = value;
+   if (type === 'public') {
+      if (value === '') {
+        activePublic.clear();
+        document.querySelectorAll('.fbtn[data-type="public"]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      } else {
+        document.querySelector('.fbtn[data-type="public"][data-value=""]').classList.remove('active');
+        if (activePublic.has(value)) {
+          activePublic.delete(value);
+          btn.classList.remove('active');
+          if (activePublic.size === 0) {
+            document.querySelector('.fbtn[data-type="public"][data-value=""]').classList.add('active');
+          }
+        } else {
+          activePublic.add(value);
+          btn.classList.add('active');
+        }
+      }
     }
 
     applyFilters();
