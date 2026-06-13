@@ -10,7 +10,7 @@ related_publications: false
 
 **Science Festivals** is a spin-off of my master's thesis in Science Communication and Science Journalism, completed at the University of Bologna in 2025 with highest honours (110/110 cum laude).
 
-The thesis — *"Science, Society, University. Science Communication for the Valorization of Knowledge"* — explored how science festivals function as spaces where science meets society, fostering dialogue between researchers and the public.
+The thesis — _"Science, Society, University. Science Communication for the Valorization of Knowledge"_ — explored how science festivals function as spaces where science meets society, fostering dialogue between researchers and the public.
 
 → [Explore the map](/map/)
 
