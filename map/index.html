@@ -1,218 +1,175 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> science festivals | Science Festivals! </title> <meta name="author" content="Giuseppe Distefano"> <meta name="description" content="Interactive map of science festivals in Italy and Europe."> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website, science festivals, science communication"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Map | Science Festivals! </title> <meta name="author" content="Giuseppe Distefano"> <meta name="description" content="Interactive map of science festivals in Italy and Europe."> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website, science festivals, science communication"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
   :root {
     --max-content-width: 930px;
   }
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://gppdst.github.io/map/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Science Festivals! </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/map/">science festivals <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/survey/">survey </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">science festivals</h1> <p class="post-description">Interactive map of science festivals in Italy and Europe.</p> </header> <article> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css"> <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script> <div id="festival-filters" style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center;"> <select id="filter-theme" style="padding: 0.4rem 0.8rem; border-radius: 20px; border: 1px solid #ccc; font-size: 0.85rem; cursor: pointer;"> <option value="">🏷️ All themes</option> </select> <select id="filter-public" style="padding: 0.4rem 0.8rem; border-radius: 20px; border: 1px solid #ccc; font-size: 0.85rem; cursor: pointer;"> <option value="">👥 All audiences</option> <option value="general public">General public</option> <option value="school">Schools</option> <option value="business">Business</option> <option value="teachers">Teachers</option> </select> <select id="filter-country" style="padding: 0.4rem 0.8rem; border-radius: 20px; border: 1px solid #ccc; font-size: 0.85rem; cursor: pointer;"> <option value="">🌍 All countries</option> </select> <span id="festival-count" style="font-size: 0.85rem; color: #666;"></span> </div> <div id="map" style="height: 580px; width: 100%; border-radius: 8px;"></div> <script>
-  const THEME_GROUPS = {
-    science:     { group: 'Science',     color: '#3a86ff' },
-    technology:  { group: 'Science',     color: '#3a86ff' },
-    physics:     { group: 'Science',     color: '#3a86ff' },
-    space:       { group: 'Science',     color: '#3a86ff' },
-    geology:     { group: 'Science',     color: '#3a86ff' },
-    research:    { group: 'Science',     color: '#3a86ff' },
-    innovation:  { group: 'Science',     color: '#3a86ff' },
-    environment: { group: 'Environment', color: '#57cc99' },
-    biodiversity:{ group: 'Environment', color: '#57cc99' },
-    water:       { group: 'Environment', color: '#57cc99' },
-    climate:     { group: 'Environment', color: '#57cc99' },
-    sustainability:{ group: 'Environment', color: '#57cc99' },
-    landscape:   { group: 'Environment', color: '#57cc99' },
-    animals:     { group: 'Environment', color: '#57cc99' },
-    society:     { group: 'Society',     color: '#ff9f1c' },
-    democracy:   { group: 'Society',     color: '#ff9f1c' },
-    economy:     { group: 'Society',     color: '#ff9f1c' },
-    journalism:  { group: 'Society',     color: '#ff9f1c' },
-    humanities:  { group: 'Humanities',  color: '#9b5de5' },
-    literature:  { group: 'Humanities',  color: '#9b5de5' },
-    philosophy:  { group: 'Humanities',  color: '#9b5de5' },
-    history:     { group: 'Humanities',  color: '#9b5de5' },
-    teaching:    { group: 'Education',   color: '#f9c74f' },
-    edu:         { group: 'Education',   color: '#f9c74f' },
-    art:         { group: 'Entertainment', color: '#f72585' },
-    food:        { group: 'Entertainment', color: '#f72585' },
-    entertainment:{ group: 'Entertainment', color: '#f72585' },
-    agriculture: { group: 'Entertainment', color: '#f72585' },
-    medicine:    { group: 'Medicine',    color: '#e63946' },
-    meteorology: { group: 'Science',     color: '#3a86ff' },
-  };
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Science Festivals! </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/map/">Map <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/survey/">survey </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Map</h1> <p class="post-description">Interactive map of science festivals in Italy and Europe.</p> </header> <article> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css"> <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script> <div id="filter-bar" style="margin-bottom: 1rem;"> <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.5rem;"> <span style="font-size:0.8rem; color:#666; align-self:center; margin-right:0.3rem;">Theme</span> <button class="fbtn active" data-type="theme" data-value="">All</button> <button class="fbtn" data-type="theme" data-value="science" style="--c:#3a86ff">Science</button> <button class="fbtn" data-type="theme" data-value="environment" style="--c:#57cc99">Environment</button> <button class="fbtn" data-type="theme" data-value="society" style="--c:#ff9f1c">Society</button> <button class="fbtn" data-type="theme" data-value="humanities" style="--c:#9b5de5">Humanities</button> <button class="fbtn" data-type="theme" data-value="education" style="--c:#f9c74f">Education</button> <button class="fbtn" data-type="theme" data-value="medicine" style="--c:#e63946">Medicine</button> <button class="fbtn" data-type="theme" data-value="technology" style="--c:#3a86ff">Technology</button> <button class="fbtn" data-type="theme" data-value="journalism" style="--c:#ff9f1c">Journalism</button> </div> <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;"> <span style="font-size:0.8rem; color:#666; align-self:center; margin-right:0.3rem;">Audience</span> <button class="fbtn active" data-type="public" data-value="">All</button> <button class="fbtn" data-type="public" data-value="general public">General public</button> <button class="fbtn" data-type="public" data-value="school">Schools</button> <button class="fbtn" data-type="public" data-value="teachers">Teachers</button> <button class="fbtn" data-type="public" data-value="business">Business</button> </div> <div style="margin-top: 0.5rem;"> <span id="festival-count" style="font-size:0.8rem; color:#666;"></span> </div> </div> <div id="map" style="height: 560px; width: 100%; border-radius: 8px; margin-bottom: 2rem;"></div> <script>
+const THEME_COLORS = {
+  science:     '#3a86ff',
+  environment: '#57cc99',
+  society:     '#ff9f1c',
+  humanities:  '#9b5de5',
+  education:   '#f9c74f',
+  medicine:    '#e63946',
+  technology:  '#3a86ff',
+  journalism:  '#ff9f1c',
+};
 
-  const GROUP_COLORS = {
-    'Science':       '#3a86ff',
-    'Environment':   '#57cc99',
-    'Society':       '#ff9f1c',
-    'Humanities':    '#9b5de5',
-    'Education':     '#f9c74f',
-    'Entertainment': '#f72585',
-    'Medicine':      '#e63946',
-    'Other':         '#adb5bd',
-  };
+function getColor(theme) {
+  return THEME_COLORS[theme] || '#adb5bd';
+}
 
-  function getColor(tags) {
-    for (const tag of tags) {
-      if (THEME_GROUPS[tag]) return THEME_GROUPS[tag].color;
-    }
-    return GROUP_COLORS['Other'];
-  }
+function formatList(arr) {
+  if (!arr || !arr.length) return '';
+  return arr.join(' · ');
+}
 
-  function getGroup(tags) {
-    for (const tag of tags) {
-      if (THEME_GROUPS[tag]) return THEME_GROUPS[tag].group;
-    }
-    return 'Other';
-  }
+function formatTags(arr) {
+  if (!arr || !arr.length) return '';
+  return arr.map(t => `<span class="tag">${t}</span>`).join(' ');
+}
 
-  function makeCircleMarker(lat, lon, color) {
-    return L.circleMarker([lat, lon], {
-      radius: 7,
-      fillColor: color,
-      color: '#fff',
-      weight: 1.5,
-      opacity: 1,
-      fillOpacity: 0.85
-    });
-  }
+const map = L.map('map').setView([46, 12], 5);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  maxZoom: 18
+}).addTo(map);
 
-  function formatList(value) {
-    if (!value) return '';
-    return value.split(';').map(v => v.trim()).filter(Boolean).join(' · ');
-  }
+let allMarkers = [];
+let activeThemes = new Set();
+let activePublic = '';
 
-  function formatTags(value) {
-    if (!value) return '';
-    return value.split(';').map(v => v.trim()).filter(Boolean)
-      .map(t => `<span class="tag">${t}</span>`).join(' ');
-  }
+fetch('/assets/data/festivals.json')
+  .then(r => r.json())
+  .then(festivals => {
+    festivals.forEach(f => {
+      const lat = parseFloat(f.lat);
+      const lon = parseFloat(f.lon);
+      if (isNaN(lat) || isNaN(lon)) return;
 
-  const map = L.map('map').setView([46, 12], 5);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    maxZoom: 18
-  }).addTo(map);
+      const color = getColor(f.theme);
 
-  // Legenda
-  const legend = L.control({ position: 'bottomright' });
-  legend.onAdd = function() {
-    const div = L.DomUtil.create('div', 'map-legend');
-    div.innerHTML = '<strong>Themes</strong><br>';
-    Object.entries(GROUP_COLORS).forEach(([group, color]) => {
-      div.innerHTML += `<span style="background:${color};display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:5px;"></span>${group}<br>`;
-    });
-    return div;
-  };
-  legend.addTo(map);
-
-  let allMarkers = [];
-  let festivals = [];
-
-  fetch('/assets/data/festivals.json')
-    .then(r => r.json())
-    .then(data => {
-      festivals = data;
-
-      // Popola dropdown paesi
-      const countries = [...new Set(data.map(f => f.country).filter(Boolean))].sort();
-      const countrySelect = document.getElementById('filter-country');
-      countries.forEach(c => {
-        const opt = document.createElement('option');
-        opt.value = c; opt.textContent = c;
-        countrySelect.appendChild(opt);
+      const marker = L.circleMarker([lat, lon], {
+        radius: 6,
+        fillColor: color,
+        color: '#fff',
+        weight: 1.5,
+        opacity: 1,
+        fillOpacity: 0.85
       });
 
-      // Popola dropdown temi (gruppi macro)
-      const themeSelect = document.getElementById('filter-theme');
-      Object.keys(GROUP_COLORS).forEach(group => {
-        const opt = document.createElement('option');
-        opt.value = group; opt.textContent = group;
-        themeSelect.appendChild(opt);
-      });
+      const pub = Array.isArray(f.public) ? f.public : [f.public];
+      const tags = Array.isArray(f.tags) ? f.tags : (f.tags ? f.tags.split(';') : []);
 
-      // Crea marker
-      data.forEach(f => {
-        const lat = parseFloat(f.lat);
-        const lon = parseFloat(f.lon);
-        if (isNaN(lat) || isNaN(lon)) return;
+      marker.bindPopup(`
+        <div style="max-width:260px;">
+          <strong style="font-size:0.95rem;">${f.name}</strong><br><br>
+          📍 ${f.location}<br>
+          🗓️ ${f.period}<br>
+          👥 ${formatList(pub)}<br>
+          🌍 ${f.country}<br><br>
+          ${formatTags(tags)}
+          ${f.website ? `<br><br><a href="${f.website}" target="_blank">🔗 Website</a>` : ''}
+        </div>
+      `);
 
-        const tags = f.theme ? f.theme.split(';').map(t => t.trim().toLowerCase()).filter(Boolean) : [];
-        const color = getColor(tags);
-        const group = getGroup(tags);
-
-        const popup = `
-          <div style="max-width:280px; font-family: inherit;">
-            <strong style="font-size:1rem;">${f.name}</strong><br><br>
-            <span>📍 ${f.location}</span><br>
-            <span>🗓️ ${f.period}</span><br>
-            <span>👥 ${formatList(f.public)}</span><br>
-            <span>🌍 ${f.country}</span><br><br>
-            ${formatTags(f.theme)}
-            ${f.website ? `<br><br><a href="${f.website}" target="_blank" style="color:#2196F3;">🔗 Visit website</a>` : ''}
-          </div>
-        `;
-
-        const marker = makeCircleMarker(lat, lon, color);
-        marker.bindPopup(popup);
-        marker.festivalData = { tags, group, public: f.public || '' };
-        allMarkers.push(marker);
-        marker.addTo(map);
-      });
-
-      updateCount();
-
-      // Event listeners filtri
-      ['filter-theme', 'filter-public', 'filter-country'].forEach(id => {
-        document.getElementById(id).addEventListener('change', applyFilters);
-      });
-    });
-
-  function applyFilters() {
-    const theme = document.getElementById('filter-theme').value;
-    const pub = document.getElementById('filter-public').value;
-    const country = document.getElementById('filter-country').value;
-
-    allMarkers.forEach((marker, i) => {
-      const f = festivals[i];
-      const d = marker.festivalData;
-      const matchTheme = !theme || d.group === theme;
-      const matchPublic = !pub || d.public.toLowerCase().includes(pub.toLowerCase());
-      const matchCountry = !country || (f.country && f.country === country);
-
-      if (matchTheme && matchPublic && matchCountry) marker.addTo(map);
-      else map.removeLayer(marker);
+      marker.festivalTheme = f.theme || '';
+      marker.festivalPublic = pub.map(p => p.toLowerCase());
+      allMarkers.push(marker);
+      marker.addTo(map);
     });
 
     updateCount();
-  }
+  });
 
-  function updateCount() {
-    const visible = allMarkers.filter(m => map.hasLayer(m)).length;
-    document.getElementById('festival-count').textContent = `${visible} festival`;
-  }
+function applyFilters() {
+  allMarkers.forEach(marker => {
+    const matchTheme = activeThemes.size === 0 || activeThemes.has(marker.festivalTheme);
+    const matchPublic = !activePublic || marker.festivalPublic.some(p => p.includes(activePublic));
+    if (matchTheme && matchPublic) marker.addTo(map);
+    else map.removeLayer(marker);
+  });
+  updateCount();
+}
+
+function updateCount() {
+  const n = allMarkers.filter(m => map.hasLayer(m)).length;
+  document.getElementById('festival-count').textContent = `${n} festival shown`;
+}
+
+// Gestione pulsanti
+document.querySelectorAll('.fbtn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const type = btn.dataset.type;
+    const value = btn.dataset.value;
+
+    if (type === 'theme') {
+      if (value === '') {
+        // All themes
+        activeThemes.clear();
+        document.querySelectorAll('.fbtn[data-type="theme"]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      } else {
+        // Toggling multi-select
+        document.querySelector('.fbtn[data-type="theme"][data-value=""]').classList.remove('active');
+        if (activeThemes.has(value)) {
+          activeThemes.delete(value);
+          btn.classList.remove('active');
+          if (activeThemes.size === 0) {
+            document.querySelector('.fbtn[data-type="theme"][data-value=""]').classList.add('active');
+          }
+        } else {
+          activeThemes.add(value);
+          btn.classList.add('active');
+        }
+      }
+    }
+
+    if (type === 'public') {
+      document.querySelectorAll('.fbtn[data-type="public"]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activePublic = value;
+    }
+
+    applyFilters();
+  });
+});
 </script> <style>
-  .map-legend {
-    background: white;
-    padding: 0.6rem 0.9rem;
-    border-radius: 8px;
-    font-size: 0.8rem;
-    line-height: 1.8;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
-  }
-  .tag {
-    display: inline-block;
-    background: #f0f0f0;
-    border-radius: 10px;
-    padding: 0.1rem 0.5rem;
-    font-size: 0.75rem;
-    margin: 0.15rem 0.1rem;
-  }
-  #filter-theme, #filter-public, #filter-country {
-    background: white;
-    transition: border-color 0.2s;
-  }
-  #filter-theme:focus, #filter-public:focus, #filter-country:focus {
-    outline: none;
-    border-color: #333;
-  }
+.fbtn {
+  padding: 0.25rem 0.7rem;
+  border-radius: 20px;
+  border: 1.5px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-size: 0.78rem;
+  transition: all 0.15s;
+  color: #333;
+}
+.fbtn:hover { background: #f5f5f5; }
+.fbtn.active {
+  background: var(--c, #333);
+  border-color: var(--c, #333);
+  color: white;
+}
+.fbtn[data-value=""].active {
+  background: #333;
+  border-color: #333;
+  color: white;
+}
+.tag {
+  display: inline-block;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.72rem;
+  margin: 0.1rem;
+  color: #555;
+}
+#map { margin-bottom: 2rem; }
+@media (max-width: 768px) {
+  #map { height: 420px; margin-bottom: 4rem; }
+}
 </style> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Giuseppe Distefano. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. Last updated: June 13, 2026. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
@@ -231,8 +188,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-science-festivals",
-          title: "science festivals",
+  },{id: "nav-map",
+          title: "Map",
           description: "Interactive map of science festivals in Italy and Europe.",
           section: "Navigation",
           handler: () => {
