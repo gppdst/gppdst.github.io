@@ -5,16 +5,9 @@
     "country": "Italy",
     "location": "Piazza Dante Alighieri, 26, 34079 Staranzano GO",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "water"
-    ],
+    "tags": ["science", "environment", "water"],
     "period": "may",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@acquafestival.it",
     "lat": 45.8059,
@@ -26,16 +19,9 @@
     "country": "Italy",
     "location": "Via Giuseppe Petroni, 9, 40126 Bologna BO",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "water"
-    ],
+    "tags": ["science", "environment", "water"],
     "period": "may",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "climaxpo@adbpo.it",
     "lat": 44.494888,
@@ -47,14 +33,9 @@
     "country": "Italy",
     "location": "Via Antonio Gramsci, 4, 10121 Torino TO",
     "theme": "science",
-    "tags": [
-      "science",
-      "art"
-    ],
+    "tags": ["science", "art"],
     "period": "october",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 45.064973,
@@ -66,14 +47,9 @@
     "country": "Italy",
     "location": "Via Papiria 8 38100 Trento",
     "theme": "science",
-    "tags": [
-      "science",
-      "art"
-    ],
+    "tags": ["science", "art"],
     "period": "december",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "biglietteria@teatroportland.it",
     "lat": 46.070131,
@@ -85,15 +61,9 @@
     "country": "Italy",
     "location": "Corso Castelfidardo 30/a, Torino, TO",
     "theme": "society",
-    "tags": [
-      "society",
-      "democracy"
-    ],
+    "tags": ["society", "democracy"],
     "period": "march",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 45.065246,
@@ -105,16 +75,9 @@
     "country": "Italy",
     "location": "Parco Santa Maria 42121 Reggio Emilia RE",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "biodiversity"
-    ],
+    "tags": ["science", "environment", "biodiversity"],
     "period": "september",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 44.700863,
@@ -126,15 +89,9 @@
     "country": "Italy",
     "location": "Via Gian Carlo Clerici, 150, 20099 Sesto San Giovanni MI",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "biodiversity"
-    ],
+    "tags": ["science", "environment", "biodiversity"],
     "period": "june",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 42.638426,
@@ -146,16 +103,9 @@
     "country": "Italy",
     "location": "Via Brigata Re, 29, 33100 Udine UD",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "biodiversity"
-    ],
+    "tags": ["science", "environment", "biodiversity"],
     "period": "may",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@kaleidoscienza.it",
     "lat": 46.073837,
@@ -167,15 +117,9 @@
     "country": "Switzerland",
     "location": "Riva Antonio Caccia 5, 6900 Lugano",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "climate"
-    ],
+    "tags": ["science", "environment", "climate"],
     "period": "november - may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "segreteria@uomoeclima.org",
     "lat": 45.995711,
@@ -187,16 +131,9 @@
     "country": "Italy",
     "location": "Piazza dei Cavalieri, 7, 56126 Pisa PI",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october",
-    "public": [
-      "general public",
-      "school",
-      "business"
-    ],
+    "public": ["general public", "school", "business"],
     "organization": "",
     "contacts": "",
     "lat": 43.719686,
@@ -208,15 +145,9 @@
     "country": "Italy",
     "location": "Via Campagnol, 9, 37066 Sommacampagna VR",
     "theme": "environment",
-    "tags": [
-      "science",
-      "agriculture",
-      "food"
-    ],
+    "tags": ["science", "agriculture", "food"],
     "period": "may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 45.405199,
@@ -228,15 +159,9 @@
     "country": "Italy",
     "location": "Piazza Giuseppe Garibaldi, 23900, Lecco LC",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "geology"
-    ],
+    "tags": ["science", "environment", "geology"],
     "period": "may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "infopointlecco@comune.lecco.it",
     "lat": 45.853209,
@@ -248,15 +173,9 @@
     "country": "Italy",
     "location": "Via dei Colli, 28, 35143 Padova PD",
     "theme": "science",
-    "tags": [
-      "science",
-      "biodiversity",
-      "animals"
-    ],
+    "tags": ["science", "biodiversity", "animals"],
     "period": "may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "segreteria@micromegamondo.com",
     "lat": 45.39746,
@@ -268,14 +187,9 @@
     "country": "Italy",
     "location": "Piazza delle Istituzioni, 7, 31100 Treviso TV",
     "theme": "society",
-    "tags": [
-      "society",
-      "economy"
-    ],
+    "tags": ["society", "economy"],
     "period": "march",
-    "public": [
-      "business"
-    ],
+    "public": ["business"],
     "organization": "",
     "contacts": "",
     "lat": 45.66898,
@@ -287,17 +201,9 @@
     "country": "Italy",
     "location": "Corso Bettini 43, 38068 Rovereto TN",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "climate",
-      "meteorology"
-    ],
+    "tags": ["science", "environment", "climate", "meteorology"],
     "period": "november",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@festivalmeteorologia.it",
     "lat": 45.894003,
@@ -309,15 +215,9 @@
     "country": "Italy",
     "location": "P.za Lucio Dalla, 40129 Bologna BO",
     "theme": "education",
-    "tags": [
-      "science",
-      "teaching"
-    ],
+    "tags": ["science", "teaching"],
     "period": "october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 44.510835,
@@ -329,15 +229,9 @@
     "country": "Italy",
     "location": "Via della Motta, 13, 33170 Pordenone PN",
     "theme": "humanities",
-    "tags": [
-      "humanities",
-      "literature"
-    ],
+    "tags": ["humanities", "literature"],
     "period": "march",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@dedicafestival.it",
     "lat": 45.95551,
@@ -349,15 +243,9 @@
     "country": "Italy",
     "location": "Piazza III Novembre, 5, 38066 Riva del Garda TN",
     "theme": "education",
-    "tags": [
-      "science",
-      "teaching"
-    ],
+    "tags": ["science", "teaching"],
     "period": "october",
-    "public": [
-      "general public",
-      "teachers"
-    ],
+    "public": ["general public", "teachers"],
     "organization": "",
     "contacts": "cassese.didacta@firenzefiera.it",
     "lat": 42.638426,
@@ -369,14 +257,9 @@
     "country": "Italy",
     "location": "Via Santa Chiara, 14, 41121 Modena MO",
     "theme": "journalism",
-    "tags": [
-      "humanities",
-      "journalism"
-    ],
+    "tags": ["humanities", "journalism"],
     "period": "september",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 44.645966,
@@ -388,16 +271,9 @@
     "country": "Italy",
     "location": "Via Pietro de Coubertin, 30, 00196 Roma RM",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "landscape"
-    ],
+    "tags": ["science", "environment", "landscape"],
     "period": "may",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@festivaldelverdeedelpaesaggio.it",
     "lat": 41.929395,
@@ -409,17 +285,9 @@
     "country": "Italy",
     "location": "Piazza Luigi Amedeo Duca degli Abruzzi, 3, Trieste, TS",
     "theme": "science",
-    "tags": [
-      "science",
-      "research",
-      "innovation"
-    ],
+    "tags": ["science", "research", "innovation"],
     "period": "september",
-    "public": [
-      "general public",
-      "school",
-      "business"
-    ],
+    "public": ["general public", "school", "business"],
     "organization": "",
     "contacts": "",
     "lat": 45.654069,
@@ -431,15 +299,9 @@
     "country": "Italy",
     "location": "Piazza Martiri, 41012 Carpi MO",
     "theme": "environment",
-    "tags": [
-      "science",
-      "agriculture",
-      "food"
-    ],
+    "tags": ["science", "agriculture", "food"],
     "period": "september",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 44.783353,
@@ -451,14 +313,9 @@
     "country": "Italy",
     "location": "Via Castiglione 36, Bologna BO",
     "theme": "medicine",
-    "tags": [
-      "science",
-      "medicine"
-    ],
+    "tags": ["science", "medicine"],
     "period": "november",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 44.489488,
@@ -470,13 +327,9 @@
     "country": "Greece",
     "location": "Pireos 100, Athina 118 54, Greece",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "april",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "schools@athens-science-festival.gr",
     "lat": 38.995368,
@@ -488,14 +341,9 @@
     "country": "Italy",
     "location": "Piazza Martiri, 72, 41012 Carpi MO",
     "theme": "",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "september",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 44.782496,
@@ -507,15 +355,9 @@
     "country": "Italy",
     "location": "Via S. Rocco, 1, 41012 Carpi MO",
     "theme": "science",
-    "tags": [
-      "humanities",
-      "literature"
-    ],
+    "tags": ["humanities", "literature"],
     "period": "october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 42.638426,
@@ -527,14 +369,9 @@
     "country": "UK",
     "location": "Imperial Square, Cheltenham GL50 1QA, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "june",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "boxoffice@cheltenhamfestivals.org",
     "lat": 51.897517,
@@ -546,14 +383,9 @@
     "country": "Italy",
     "location": "Via VIII Febbraio, 2, 35122 Padova PD",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 45.40665,
@@ -565,14 +397,9 @@
     "country": "Italy",
     "location": "Via Zamboni, 33, 40126 Bologna BO",
     "theme": "humanities",
-    "tags": [
-      "history"
-    ],
+    "tags": ["history"],
     "period": "april",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 44.496507,
@@ -584,15 +411,9 @@
     "country": "Italy",
     "location": "Via della Grotta, 14. Rignano Garganico FG",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "sustainability"
-    ],
+    "tags": ["science", "environment", "sustainability"],
     "period": "july - august",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "festambientesud@gmail.com",
     "lat": 42.638426,
@@ -604,14 +425,9 @@
     "country": "UK",
     "location": "Chambers St, Edinburgh EH1 1JF, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "april",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "marketing@scifest.co.uk",
     "lat": 55.947417,
@@ -623,14 +439,9 @@
     "country": "Italy",
     "location": "Viale delle Scienze, 90128 Palermo PA",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "april",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 38.103707,
@@ -642,14 +453,9 @@
     "country": "Italy",
     "location": "Via E. De Nicola, 26, 73043 Copertino LE",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "may",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "festadellascienza@gmail.com",
     "lat": 42.638426,
@@ -661,13 +467,9 @@
     "country": "Italy",
     "location": "Via Giovanni Sansone, 1, 50019 Sesto Fiorentino FI",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "january - february",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 43.81969,
@@ -679,13 +481,9 @@
     "country": "Italy",
     "location": "Via Roma, 16, 21014 Laveno-Mombello VA",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "may - june",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "festivaldellameraviglia2023@gmail.com",
     "lat": 45.91232,
@@ -697,14 +495,9 @@
     "country": "Italy",
     "location": "Via Pasubio, 52, 36015 Schio VI",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 45.714263,
@@ -716,14 +509,9 @@
     "country": "Italy",
     "location": "Via Santa Maria in Gradi, 4, 01100 Viterbo VT",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "september",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "festivalscienzaericerca@unitus.it",
     "lat": 42.413655,
@@ -735,13 +523,9 @@
     "country": "Italy",
     "location": "Viale delle Milizie, 30 - 00192 - Roma RM",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "october",
-    "public": [
-      "school"
-    ],
+    "public": ["school"],
     "organization": "",
     "contacts": "",
     "lat": 41.913113,
@@ -753,13 +537,9 @@
     "country": "Italy",
     "location": "Piazzale degli Uffizi, 6, 50122 Firenze FI",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "march",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "segreteria@festivalscoperte.it",
     "lat": 43.768209,
@@ -771,14 +551,9 @@
     "country": "Italy",
     "location": "Piazza di Porta S. Donato, 1, 40127 Bologna BO",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "february - march",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@festivaleducazionescientifica.it",
     "lat": 44.498195,
@@ -790,15 +565,9 @@
     "country": "Italy",
     "location": "Piazza, Via Ottorino Manni, 1, 60019 Senigallia AN",
     "theme": "science",
-    "tags": [
-      "science",
-      "education"
-    ],
+    "tags": ["science", "education"],
     "period": "may",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@fosforoscienza.it",
     "lat": 42.638426,
@@ -810,14 +579,9 @@
     "country": "Italy",
     "location": "Via dei Bottai 1, 39100 Bolzano BZ",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "november",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@milleunascienza.com",
     "lat": 46.501118,
@@ -829,13 +593,9 @@
     "country": "Italy",
     "location": "Via S. Benedetto, 70014 Conversano BA",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 40.968038,
@@ -847,14 +607,9 @@
     "country": "Italy",
     "location": "Via Isola Polvese, 06063 San Feliciano PG",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "september",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 43.117948,
@@ -866,15 +621,9 @@
     "country": "Italy",
     "location": "Via Santa Croce, 67 - 38100 Trento TN",
     "theme": "society",
-    "tags": [
-      "society",
-      "economy"
-    ],
+    "tags": ["society", "economy"],
     "period": "may",
-    "public": [
-      "general public",
-      "business"
-    ],
+    "public": ["general public", "business"],
     "organization": "",
     "contacts": "",
     "lat": 46.063353,
@@ -886,14 +635,9 @@
     "country": "Italy",
     "location": "Via Lorenzo Gandolfo, 11, 46100 Mantova MN",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "november",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 45.151562,
@@ -905,13 +649,9 @@
     "country": "Italy",
     "location": "Piazza Tre Torri, 1/l, 20145 Milano MI",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "november",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 45.478311,
@@ -923,14 +663,9 @@
     "country": "Italy",
     "location": "Via Santa Chiara, snc, 87036 Rende CS",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "march",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 42.638426,
@@ -942,14 +677,9 @@
     "country": "Italy",
     "location": "Piazza IV Novembre, 1, 06123 Perugia PG",
     "theme": "journalism",
-    "tags": [
-      "humanities",
-      "journalism"
-    ],
+    "tags": ["humanities", "journalism"],
     "period": "april",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 43.11207,
@@ -961,14 +691,9 @@
     "country": "Italy",
     "location": "Via Giuseppe Valentini, 14, 59100 Prato PO",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 43.873766,
@@ -980,13 +705,9 @@
     "country": "Italy",
     "location": "Piazza Indipendenza 1 40016 San Giorgio di Piano, Italy",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "march",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 44.646195,
@@ -998,14 +719,9 @@
     "country": "Italy",
     "location": "Via Angelo Scarsellini, 3/A - Mantova",
     "theme": "humanities",
-    "tags": [
-      "humanities",
-      "literature"
-    ],
+    "tags": ["humanities", "literature"],
     "period": "september",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 45.16007,
@@ -1017,16 +733,9 @@
     "country": "Italy",
     "location": "Piazza Martiri, 41012 Carpi MO",
     "theme": "humanities",
-    "tags": [
-      "humanities",
-      "science",
-      "philosophy"
-    ],
+    "tags": ["humanities", "science", "philosophy"],
     "period": "september",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 44.783353,
@@ -1038,13 +747,9 @@
     "country": "Italy",
     "location": "Viale Miramare 345, Trieste, TS",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "july - september",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 45.704515,
@@ -1056,14 +761,9 @@
     "country": "Belgium",
     "location": "Leuvensesteenweg 13, 3080 Tervuren, Belgium",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "march",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "press-SIW@cecoforma.com",
     "lat": 50.832339,
@@ -1075,14 +775,9 @@
     "country": "Italy",
     "location": "Piazza San Marco, 450121 Firenze FI",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "june - september",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "openlab@adm.unifi.it",
     "lat": 43.777868,
@@ -1094,13 +789,9 @@
     "country": "Italy",
     "location": "Museo Nazionale dell’Automobile - Corso Unità d’Italy, 40 Torino, TO",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "april - september",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 42.638426,
@@ -1112,14 +803,9 @@
     "country": "Italy",
     "location": "Viale Filippo Corridoni 1, 43039 Salsomaggiore Terme PR",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "september",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "hello@spiegamelo.it",
     "lat": 42.638426,
@@ -1131,13 +817,9 @@
     "country": "Italy",
     "location": "Via Bicchieraia, 26, 52100 Arezzo AR",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "january - december",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "arezzosciencelab@gmail.com",
     "lat": 43.465236,
@@ -1149,14 +831,9 @@
     "country": "Italy",
     "location": "Via Emilia, 80, 40026 Imola BO",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "april",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "attivita.culturali@comune.imola.bo.it",
     "lat": 44.354684,
@@ -1168,15 +845,9 @@
     "country": "Italy",
     "location": "Piazza Giuseppe Garibaldi, Parma, PR",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "sustainability"
-    ],
+    "tags": ["science", "environment", "sustainability"],
     "period": "march",
-    "public": [
-      "business"
-    ],
+    "public": ["business"],
     "organization": "",
     "contacts": "",
     "lat": 44.808431,
@@ -1188,14 +859,9 @@
     "country": "UK",
     "location": "Miklošičeva 28 1000 Ljubljana, Slovenia",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "info@ljudmila.org",
     "lat": 46.055795,
@@ -1207,14 +873,9 @@
     "country": "Czech Republic",
     "location": "771 80, Univerzitní 225/3, 779 00 Olomouc, Cechia",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "april",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "afo@afo.cz",
     "lat": 49.743905,
@@ -1226,13 +887,9 @@
     "country": "Italy",
     "location": "Via Louis Pasteur, 44, 34139 Trieste TS",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "ilas@sissa.it",
     "lat": 45.639031,
@@ -1244,13 +901,9 @@
     "country": "Italy",
     "location": "Via L'Aquila, 66/74, 00176 Roma RM",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "april",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "eventi.dsu@cnr.it",
     "lat": 41.890584,
@@ -1262,15 +915,9 @@
     "country": "Italy",
     "location": "Corso Vittorio Emanuele II, 84, 70122 Bari BA",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 41.125518,
@@ -1282,15 +929,9 @@
     "country": "Italy",
     "location": "Viale Papa Giovanni XXIII, 57, 24121 Bergamo BG",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "september - october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 45.691633,
@@ -1302,14 +943,9 @@
     "country": "UK",
     "location": "Water Ln, London E15 4LZ, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "september",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "festival@britishscienceassociation.org",
     "lat": 51.543269,
@@ -1321,14 +957,9 @@
     "country": "UK",
     "location": "7 Newton Rd, Wick KW1 5LT, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "march",
-    "public": [
-      "school"
-    ],
+    "public": ["school"],
     "organization": "",
     "contacts": "festival@science03.org",
     "lat": 58.437125,
@@ -1340,15 +971,9 @@
     "country": "UK",
     "location": "The Old Schools, Trinity Ln, Cambridge CB2 1TN, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "march - april",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "cambridgefestival@admin.cam.ac.uk",
     "lat": 52.205331,
@@ -1360,14 +985,9 @@
     "country": "Italy",
     "location": "Via Calepina, 14, 38122 Trento TN",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "april",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 46.066775,
@@ -1379,14 +999,9 @@
     "country": "International",
     "location": "Cēsu iela 4, Valmiera, LV-4201, Lettonia",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "office@eudres.eu",
     "lat": 57.534941,
@@ -1398,14 +1013,9 @@
     "country": "International",
     "location": "plac Sławika i Antalla 1, 40-163 Katowice, Polonia",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "june",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "esof2024@euroscience.org",
     "lat": 50.266248,
@@ -1417,15 +1027,9 @@
     "country": "Italy",
     "location": "Piazza del Popolo, 57, 63900 Fermo FM",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 43.161236,
@@ -1437,15 +1041,9 @@
     "country": "Italy",
     "location": "Via Federico Frezzi, 6/8, 06034 Foligno PG",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "april",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 42.954136,
@@ -1457,15 +1055,9 @@
     "country": "Italy",
     "location": "Via dell'Università, 25, 89124 Reggio Calabria RC",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 42.638426,
@@ -1477,14 +1069,9 @@
     "country": "Italy",
     "location": "Piazza Pier Maria Amiani, 61032 Fano PU",
     "theme": "humanities",
-    "tags": [
-      "humanities",
-      "literature"
-    ],
+    "tags": ["humanities", "literature"],
     "period": "june",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "passaggi.info@gmail.com",
     "lat": 43.844674,
@@ -1496,16 +1083,9 @@
     "country": "Italy",
     "location": "Piazza Giacomo Matteotti, 9, 16123 Genova GE",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october - november",
-    "public": [
-      "general public",
-      "school",
-      "business"
-    ],
+    "public": ["general public", "school", "business"],
     "organization": "",
     "contacts": "",
     "lat": 44.407643,
@@ -1517,14 +1097,9 @@
     "country": "Italy",
     "location": "Via San Rocco 88, 66054 Vasto CH",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "january",
-    "public": [
-      "school"
-    ],
+    "public": ["school"],
     "organization": "",
     "contacts": "",
     "lat": 42.134342,
@@ -1536,15 +1111,9 @@
     "country": "Italy",
     "location": "Via Tugini, 55 , 71121 Foggia FG",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "february - march",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 41.460727,
@@ -1556,15 +1125,9 @@
     "country": "Italy",
     "location": "Viale della Fiera 20, 40127 Bologna BO",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "april",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@play-festival.it",
     "lat": 44.508691,
@@ -1576,13 +1139,9 @@
     "country": "France",
     "location": "59 Cr Julien, 13006 Marseille, France",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "december",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "serge.dentin@pollymaggoo.org",
     "lat": 46.603354,
@@ -1594,15 +1153,9 @@
     "country": "Italy",
     "location": "Via Pietro de Coubertin, 30, 00196 Roma RM",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "april",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 41.92914,
@@ -1614,16 +1167,9 @@
     "country": "Italy",
     "location": "Piazza Campidoglio 50, Settimo Torinese, TO",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october",
-    "public": [
-      "general public",
-      "school",
-      "business"
-    ],
+    "public": ["general public", "school", "business"],
     "organization": "",
     "contacts": "",
     "lat": 45.135925,
@@ -1635,15 +1181,9 @@
     "country": "Italy",
     "location": "Via Università, 40, 09124 Cagliari CA",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "november",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "segreteria@festivalscienzacagliari.it",
     "lat": 39.217585,
@@ -1655,14 +1195,9 @@
     "country": "Italy",
     "location": "Via Olona 6 bis, Milano MI",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "november",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "redazione@focus.it",
     "lat": 45.460289,
@@ -1674,15 +1209,9 @@
     "country": "Italy",
     "location": "Piazza Leon Battista Alberti, 46100 Mantova",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "may",
-    "public": [
-      "general public",
-      "business"
-    ],
+    "public": ["general public", "business"],
     "organization": "",
     "contacts": "",
     "lat": 45.159345,
@@ -1694,15 +1223,9 @@
     "country": "Italy",
     "location": "Via Coroglio, 57, 80124  Napoli NA",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october - december",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 40.804722,
@@ -1714,15 +1237,9 @@
     "country": "Italy",
     "location": "Via VIII Febbraio, 15, 35122 Padova PD",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "may",
-    "public": [
-      "general public",
-      "business"
-    ],
+    "public": ["general public", "business"],
     "organization": "",
     "contacts": "",
     "lat": 45.407692,
@@ -1734,15 +1251,9 @@
     "country": "UK",
     "location": "Glasgow G12 8QQ, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "june",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "sciencefestival@glasgow.ac.uk",
     "lat": 55.861155,
@@ -1754,13 +1265,9 @@
     "country": "Italy",
     "location": "Via Ulisse Dini 7, 20142 Milano MI",
     "theme": "science",
-    "tags": [
-      "science"
-    ],
+    "tags": ["science"],
     "period": "january - february",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "biglietteria@pacta.org",
     "lat": 45.428975,
@@ -1772,16 +1279,9 @@
     "country": "Italy",
     "location": "Via del Commercio, 9/11, 00154 Roma RM",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october",
-    "public": [
-      "general public",
-      "school",
-      "business"
-    ],
+    "public": ["general public", "school", "business"],
     "organization": "",
     "contacts": "",
     "lat": 41.870583,
@@ -1793,14 +1293,9 @@
     "country": "Italy",
     "location": "Via Alessandro Volta, 27, 33086 Montereale Valcellina PN",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "november",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 46.148814,
@@ -1812,15 +1307,9 @@
     "country": "UK",
     "location": "Liverpool Rd, Manchester M3 4JP, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@sciencemuseumgroup.ac.uk",
     "lat": 53.476772,
@@ -1832,15 +1321,9 @@
     "country": "Italy",
     "location": "Via Simeto, 23, 95131 Catania CT",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "may - june",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 37.509368,
@@ -1852,15 +1335,9 @@
     "country": "UK",
     "location": "Wollaton Hall, 2 Wollaton Hall, Nottingham, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "february",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "info@nottsfosac.co.uk",
     "lat": 54.702354,
@@ -1872,14 +1349,9 @@
     "country": "UK",
     "location": "Douglas Downes Cl, Quarry Rd, Headington, Oxford OX3 8SB, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "october - november",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "info@if-oxford.com",
     "lat": 54.702354,
@@ -1891,15 +1363,9 @@
     "country": "Malta",
     "location": "VGX8+QGF, Merchants St, Valletta, Malta",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "september",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "sitc@um.edu.mt",
     "lat": 35.931144,
@@ -1911,14 +1377,9 @@
     "country": "Lithuania",
     "location": "Danės g. 17, Klaipėda, 92117 Klaipėdos m. sav., Lithuania",
     "theme": "education",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "may",
-    "public": [
-      "Insegnanti"
-    ],
+    "public": ["Insegnanti"],
     "organization": "",
     "contacts": "info@science-on-stage.eu",
     "lat": 55.35,
@@ -1930,15 +1391,9 @@
     "country": "Italy",
     "location": "Corso Giuseppe Garibaldi, 39, 35121 Padova PD",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "september",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "",
     "lat": 45.410028,
@@ -1950,15 +1405,9 @@
     "country": "Italy",
     "location": "Via Bonomea, 265, 34136 Trieste TS",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "may",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "ilas@sissa.it",
     "lat": 45.67868,
@@ -1970,14 +1419,9 @@
     "country": "Italy",
     "location": "Via E. Scrovegni, 30, 35121 Padova PD",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "march - april",
-    "public": [
-      "school"
-    ],
+    "public": ["school"],
     "organization": "",
     "contacts": "",
     "lat": 42.638426,
@@ -1989,14 +1433,9 @@
     "country": "Italy",
     "location": "Via Marconi, 9, 25040 Gianico BS",
     "theme": "humanities",
-    "tags": [
-      "humanities",
-      "literature"
-    ],
+    "tags": ["humanities", "literature"],
     "period": "march - may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "http://www.oltreconfinefestival.it/contatti.php",
     "lat": 45.865161,
@@ -2008,14 +1447,9 @@
     "country": "UK",
     "location": "Pendigo Way, Marston Green, Birmingham B40 1NT, Regno Unito",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "june",
-    "public": [
-      "school"
-    ],
+    "public": ["school"],
     "organization": "",
     "contacts": "info@thebigbang.org.uk",
     "lat": 52.450117,
@@ -2027,14 +1461,9 @@
     "country": "Italy",
     "location": "Via Giovanni Gradenigo, 6/A, 35131 Padova PD",
     "theme": "science",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "april",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "https://www.instagram.com/radiowavefestival/",
     "lat": 45.409028,
@@ -2046,16 +1475,9 @@
     "country": "Italy",
     "location": "Piazza Unità d'Italy, 34121 Trieste TS",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "may",
-    "public": [
-      "general public",
-      "school",
-      "business"
-    ],
+    "public": ["general public", "school", "business"],
     "organization": "",
     "contacts": "makerfairetrieste@gmail.com",
     "lat": 42.638426,
@@ -2067,15 +1489,9 @@
     "country": "Italy",
     "location": "Bologna Fiere ingresso Ovest Costituzione, Piazza della Costituzione, 4b, 40128 Bologna BO",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "june",
-    "public": [
-      "general public",
-      "business"
-    ],
+    "public": ["general public", "business"],
     "organization": "",
     "contacts": "",
     "lat": 42.638426,
@@ -2087,17 +1503,9 @@
     "country": "Italy",
     "location": "Piazza del Nettuno 1/C, Bologna",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology",
-      "edu"
-    ],
+    "tags": ["science", "technology", "edu"],
     "period": "october - december",
-    "public": [
-      "general public",
-      "school",
-      "business"
-    ],
+    "public": ["general public", "school", "business"],
     "organization": "",
     "contacts": "",
     "lat": 44.494446,
@@ -2109,14 +1517,9 @@
     "country": "Italy",
     "location": "Piazza Sansovino, 3, 61032 Fano PU",
     "theme": "humanities",
-    "tags": [
-      "humanities",
-      "literature"
-    ],
+    "tags": ["humanities", "literature"],
     "period": "june",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "passaggi.info@gmail.com",
     "lat": 43.841346,
@@ -2128,15 +1531,9 @@
     "country": "Italy",
     "location": "Str. della Carpaneda, 141, 36100 Vicenza VI",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "sustainability"
-    ],
+    "tags": ["science", "environment", "sustainability"],
     "period": "september",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "info@teatroastra.it",
     "lat": 42.638426,
@@ -2148,17 +1545,9 @@
     "country": "Italy",
     "location": "Via Milano 9A, Roma, RM",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "sustainability"
-    ],
+    "tags": ["science", "environment", "sustainability"],
     "period": "may",
-    "public": [
-      "general public",
-      "school",
-      "business"
-    ],
+    "public": ["general public", "school", "business"],
     "organization": "",
     "contacts": "",
     "lat": 41.89773,
@@ -2170,13 +1559,9 @@
     "country": "Italy",
     "location": "Via Speranza, 42, 40133 Bologna BO",
     "theme": "society",
-    "tags": [
-      "society"
-    ],
+    "tags": ["society"],
     "period": "october",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "pandora@pandorarivista.it",
     "lat": 44.505161,
@@ -2188,15 +1573,9 @@
     "country": "Italy",
     "location": "Via Giovanni Piamarta 4, 25121 Brescia BS",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "sustainability"
-    ],
+    "tags": ["science", "environment", "sustainability"],
     "period": "october",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "info@unasolaterra.it",
     "lat": 45.541401,
@@ -2208,15 +1587,9 @@
     "country": "Italy",
     "location": "Via San Vittore, 21, 20123 Milano MI",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "sustainability"
-    ],
+    "tags": ["science", "environment", "sustainability"],
     "period": "june",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "N.D.",
     "lat": 45.461781,
@@ -2228,14 +1601,9 @@
     "country": "Italy",
     "location": "Via Tito Fanfulla, 3, 26900 Lodi LO",
     "theme": "humanities",
-    "tags": [
-      "humanities",
-      "literature"
-    ],
+    "tags": ["humanities", "literature"],
     "period": "may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "aicc.lodi@gmail.com",
     "lat": 45.31606,
@@ -2247,13 +1615,9 @@
     "country": "Italy",
     "location": "Via Giorgio Pallavicino, 35, 10153 Torino TO",
     "theme": "society",
-    "tags": [
-      "society"
-    ],
+    "tags": ["society"],
     "period": "october - november",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "direzione@cuboteatro.it",
     "lat": 45.073265,
@@ -2265,16 +1629,9 @@
     "country": "Italy",
     "location": "Piazza Manfredo Fanti, 47, 00185 Roma RM",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "sustainability"
-    ],
+    "tags": ["science", "environment", "sustainability"],
     "period": "june",
-    "public": [
-      "general public",
-      "business"
-    ],
+    "public": ["general public", "business"],
     "organization": "",
     "contacts": "segreteria@verdeblufestival.it",
     "lat": 41.897568,
@@ -2286,16 +1643,9 @@
     "country": "Italy",
     "location": "Via Cardinal Querini, 9, 25121 Brescia BS",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "sustainability"
-    ],
+    "tags": ["science", "environment", "sustainability"],
     "period": "april - may",
-    "public": [
-      "general public",
-      "school"
-    ],
+    "public": ["general public", "school"],
     "organization": "",
     "contacts": "segreteria.fondazione@cogeme.net",
     "lat": 42.638426,
@@ -2307,15 +1657,9 @@
     "country": "Italy",
     "location": "Strada Vicinale della Berlia, 500, 10146 Torino TO",
     "theme": "science",
-    "tags": [
-      "science",
-      "physics",
-      "space"
-    ],
+    "tags": ["science", "physics", "space"],
     "period": "may",
-    "public": [
-      "general public"
-    ],
+    "public": ["general public"],
     "organization": "",
     "contacts": "",
     "lat": 42.638426,
@@ -2327,16 +1671,9 @@
     "country": "Italy",
     "location": "Piazza del Nettuno, 3, 40124 Bologna BO",
     "theme": "environment",
-    "tags": [
-      "science",
-      "environment",
-      "sustainability"
-    ],
+    "tags": ["science", "environment", "sustainability"],
     "period": "may",
-    "public": [
-      "general public",
-      "business"
-    ],
+    "public": ["general public", "business"],
     "organization": "",
     "contacts": "info@festivaldelsara.com",
     "lat": 44.494773,
@@ -2348,16 +1685,9 @@
     "country": "Italy",
     "location": "Corso Castelfidardo 30/a, Torino, TO",
     "theme": "technology",
-    "tags": [
-      "science",
-      "technology"
-    ],
+    "tags": ["science", "technology"],
     "period": "april",
-    "public": [
-      "general public",
-      "school",
-      "business"
-    ],
+    "public": ["general public", "school", "business"],
     "organization": "",
     "contacts": "",
     "lat": 45.065246,
