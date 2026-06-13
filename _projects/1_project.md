@@ -1,16 +1,18 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Science Festivals
+description: An interactive map and resources for science festivals in Italy and Europe.
 img: assets/img/12.jpg
 importance: 1
-category: work
-related_publications: true
+category: research
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Science Festivals** is a spin-off of my master's thesis in Science Communication and Science Journalism, completed at the University of Bologna in 2025 with highest honours (110/110 cum laude).
+
+The thesis — *"Science, Society, University. Science Communication for the Valorization of Knowledge"* — explored how science festivals function as spaces where science meets society, fostering dialogue between researchers and the public.
+
+→ [Explore the map](/map/)
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

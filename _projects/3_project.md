@@ -1,12 +1,13 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Health Literacy
+description: Improving access to health information for underserved communities.
+img: assets/img/5.jpg
 importance: 3
-category: work
+category: research
 ---
+
+Coming soon.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
