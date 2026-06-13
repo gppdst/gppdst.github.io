@@ -2,7 +2,7 @@
 layout: page
 title: Science Festivals
 description: An interactive map and resources for science festivals in Italy and Europe.
-img: assets/img/12.jpg
+img: assets/img/mao_thumb.jpg
 importance: 1
 category: research
 related_publications: false
