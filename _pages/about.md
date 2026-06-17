@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Science + teaching + communication
 permalink: /
-subtitle: Science + teaching + communication
+subtitle: 
 
 profile:
   align: right
