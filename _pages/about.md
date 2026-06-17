@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Science educator & communicator — Bologna, Italy.
+subtitle: Science + teaching + communication
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: self.jpg
   image_circular: false
   more_info:
 
