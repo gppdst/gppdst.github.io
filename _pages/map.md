@@ -45,7 +45,6 @@ nav_order: 2
       <label for="f-name">Title <span class="required">*</span></label>
       <input type="text" id="f-name" name="name" required>
     </div>
-
     <div class="form-group">
       <label>Theme</label>
       <div class="chip-group" data-name="theme[]">
@@ -59,7 +58,6 @@ nav_order: 2
         <button type="button" class="chip" data-value="journalism">Journalism</button>
       </div>
     </div>
-
     <div class="form-row">
       <div class="form-group">
         <label for="f-country">Country</label>
@@ -70,7 +68,6 @@ nav_order: 2
         <input type="text" id="f-address" name="address">
       </div>
     </div>
-
     <div class="form-group">
       <label>Audience</label>
       <div class="chip-group" data-name="public[]">
@@ -80,24 +77,20 @@ nav_order: 2
         <button type="button" class="chip" data-value="business">Business</button>
       </div>
     </div>
-
     <div class="form-group">
       <label for="f-description">Short description</label>
       <textarea id="f-description" name="description" rows="3" placeholder="A couple of sentences about the festival..."></textarea>
     </div>
-
     <div class="form-group">
       <label for="f-website">Website <span class="required">*</span></label>
       <input type="url" id="f-website" name="website" placeholder="https://" required>
     </div>
-
     <div class="form-group newsletter-opt">
       <label class="checkbox-label">
         <input type="checkbox" name="newsletter" value="yes">
         keep me updated
       </label>
     </div>
-
     <button type="submit" class="submit-btn">Submit festival</button>
     <p id="form-success" style="display:none;">Thanks! Your suggestion has been sent.</p>
   </form>
