@@ -1,8 +1,8 @@
 ---
 layout: about
-title: Science + teaching + communication
+title: about
 permalink: /
-subtitle: 
+subtitle: Lifelong learner in science + teaching + communication
 
 profile:
   align: right
