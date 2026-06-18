@@ -184,7 +184,7 @@ document.querySelectorAll('.fbtn').forEach(btn => {
   });
 });
 </script>
-
+--- %Form
 <style>
 .fbtn {
   padding: 0.25rem 0.7rem;
@@ -222,224 +222,131 @@ document.querySelectorAll('.fbtn').forEach(btn => {
 }
 </style>
 
-<form id="event-form" class="event-submission-form">
+<style>
 
-  <h2>Submit a Science Festival or Event</h2>
+.submit-card{
+  max-width:700px;
+  margin:2rem auto 0;
+  padding:1rem 1.2rem;
+  border:1px solid var(--global-divider-color);
+  border-radius:12px;
+  background:var(--global-bg-color);
+}
+
+.submit-card p{
+  margin-bottom:1rem;
+  color:var(--global-text-color-light);
+  font-size:.9rem;
+}
+
+.submit-card input[type=text],
+.submit-card input[type=url]{
+  width:100%;
+  padding:.65rem .8rem;
+  border:1px solid var(--global-divider-color);
+  border-radius:8px;
+  margin-bottom:.8rem;
+}
+
+.grid-2{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:.6rem;
+}
+
+.tag-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.4rem;
+  margin-bottom:.8rem;
+}
+
+.tag-label{
+  font-size:.8rem;
+  color:#666;
+  align-self:center;
+  margin-right:.3rem;
+}
+
+.tag-btn{
+  border:none;
+  background:#f3f4f6;
+  color:#444;
+  border-radius:999px;
+  padding:.3rem .8rem;
+  font-size:.85rem;
+  cursor:pointer;
+}
+
+.submit-btn{
+  width:100%;
+  padding:.75rem;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+</style>
+
+<div class="submit-card">
 
   <p>
-    Help us build a global database of science festivals, science communication initiatives,
-    public engagement activities, and related events.
+    Know a festival that is missing?
+    Help us improve the database.
   </p>
 
-  <!-- EVENT TITLE -->
-
-  <label for="title">Event Title *</label>
   <input
     type="text"
-    id="title"
-    name="title"
-    required
-    maxlength="200"
+    placeholder="Festival title"
   >
 
-  <!-- CATEGORIES -->
+  <div class="grid-2">
 
-  <fieldset>
-    <legend>Categories *</legend>
+    <input
+      type="text"
+      placeholder="Country"
+    >
 
-    <label><input type="checkbox" name="category" value="Science"> Science</label><br>
-    <label><input type="checkbox" name="category" value="Environment"> Environment</label><br>
-    <label><input type="checkbox" name="category" value="Society"> Society</label><br>
-    <label><input type="checkbox" name="category" value="Humanities"> Humanities</label><br>
-    <label><input type="checkbox" name="category" value="Education"> Education</label><br>
-    <label><input type="checkbox" name="category" value="Medicine"> Medicine</label><br>
-    <label><input type="checkbox" name="category" value="Technology"> Technology</label>
-  </fieldset>
+    <input
+      type="text"
+      placeholder="City / Venue"
+    >
 
-  <!-- AUDIENCE -->
+  </div>
 
-  <fieldset>
-    <legend>Target Audience *</legend>
+  <div class="tag-row">
+    <span class="tag-label">Theme</span>
 
-    <label><input type="checkbox" name="audience" value="General Public"> General Public</label><br>
-    <label><input type="checkbox" name="audience" value="School Students"> School Students</label><br>
-    <label><input type="checkbox" name="audience" value="Teachers"> Teachers</label><br>
-    <label><input type="checkbox" name="audience" value="Business"> Business</label>
-  </fieldset>
+    <button class="tag-btn">Science</button>
+    <button class="tag-btn">Environment</button>
+    <button class="tag-btn">Society</button>
+    <button class="tag-btn">Humanities</button>
+    <button class="tag-btn">Education</button>
+    <button class="tag-btn">Medicine</button>
+    <button class="tag-btn">Technology</button>
+  </div>
 
-  <!-- MONTHS -->
+  <div class="tag-row">
+    <span class="tag-label">Audience</span>
 
-  <fieldset>
-    <legend>Months of Occurrence *</legend>
-
-    <label><input type="checkbox" name="month" value="January"> January</label><br>
-    <label><input type="checkbox" name="month" value="February"> February</label><br>
-    <label><input type="checkbox" name="month" value="March"> March</label><br>
-    <label><input type="checkbox" name="month" value="April"> April</label><br>
-    <label><input type="checkbox" name="month" value="May"> May</label><br>
-    <label><input type="checkbox" name="month" value="June"> June</label><br>
-    <label><input type="checkbox" name="month" value="July"> July</label><br>
-    <label><input type="checkbox" name="month" value="August"> August</label><br>
-    <label><input type="checkbox" name="month" value="September"> September</label><br>
-    <label><input type="checkbox" name="month" value="October"> October</label><br>
-    <label><input type="checkbox" name="month" value="November"> November</label><br>
-    <label><input type="checkbox" name="month" value="December"> December</label>
-  </fieldset>
-
-  <!-- EVENT TYPE -->
-
-  <fieldset>
-    <legend>Event Type</legend>
-
-    <label>
-      <input
-        type="radio"
-        name="event_type"
-        value="Annual"
-        checked
-      >
-      Annual Event
-    </label><br>
-
-    <label>
-      <input
-        type="radio"
-        name="event_type"
-        value="One-off"
-      >
-      One-off Event
-    </label>
-  </fieldset>
-
-  <!-- COUNTRY -->
-
-  <label for="country">Country *</label>
-
-  <select id="country" name="country" required>
-    <option value="">Select a country</option>
-    <option value="Australia">Australia</option>
-    <option value="Canada">Canada</option>
-    <option value="France">France</option>
-    <option value="Germany">Germany</option>
-    <option value="India">India</option>
-    <option value="Italy">Italy</option>
-    <option value="Japan">Japan</option>
-    <option value="Netherlands">Netherlands</option>
-    <option value="Spain">Spain</option>
-    <option value="United Kingdom">United Kingdom</option>
-    <option value="United States">United States</option>
-    <option value="Other">Other</option>
-  </select>
-
-  <!-- CITY -->
-
-  <label for="city">City / Locality *</label>
-
-  <input
-    type="text"
-    id="city"
-    name="city"
-    required
-    maxlength="100"
-  >
-
-  <!-- ADDRESS -->
-
-  <label for="address">Address / Venue</label>
-
-  <input
-    type="text"
-    id="address"
-    name="address"
-    maxlength="250"
-  >
-
-  <!-- WEBSITE -->
-
-  <label for="website">Official Website</label>
+    <button class="tag-btn">General public</button>
+    <button class="tag-btn">Schools</button>
+    <button class="tag-btn">Teachers</button>
+    <button class="tag-btn">Business</button>
+  </div>
 
   <input
     type="url"
-    id="website"
-    name="website"
-    placeholder="https://example.org"
+    placeholder="Website"
   >
 
-  <!-- DESCRIPTION -->
+  <label style="font-size:.85rem;">
+    <input type="checkbox">
+    Keep me informed about updates
+  </label>
 
-  <label for="description">Short Description</label>
-
-  <textarea
-    id="description"
-    name="description"
-    rows="6"
-    maxlength="1000"
-    placeholder="Describe the event, its objectives, activities and target audience..."
-  ></textarea>
-
-  <!-- FUTURE MAP SUPPORT -->
-
-  <input type="hidden" id="event_id" name="event_id">
-  <input type="hidden" id="latitude" name="latitude">
-  <input type="hidden" id="longitude" name="longitude">
-
-  <!-- SUBMITTER -->
-
-  <h3>About You</h3>
-
-  <label for="submitter_name">Name (optional)</label>
-
-  <input
-    type="text"
-    id="submitter_name"
-    name="submitter_name"
-    maxlength="100"
-  >
-
-  <label for="submitter_email">Email (optional)</label>
-
-  <input
-    type="email"
-    id="submitter_email"
-    name="submitter_email"
-  >
-
-  <!-- NEWSLETTER -->
-
-  <fieldset>
-    <legend>Newsletter</legend>
-
-    <label>
-      <input
-        type="checkbox"
-        name="newsletter"
-        value="yes"
-      >
-      I would like to receive updates about science festivals, public engagement activities and new additions to the database.
-    </label>
-
-  </fieldset>
-
-  <!-- PRIVACY -->
-
-  <fieldset>
-    <legend>Privacy Notice</legend>
-
-    <label>
-      <input
-        type="checkbox"
-        name="privacy"
-        required
-      >
-      I confirm that the information provided is publicly available or that I have permission to share it.
-    </label>
-
-  </fieldset>
-
-  <!-- SUBMIT -->
-
-  <button type="submit">
-    Submit Event
+  <button class="submit-btn">
+    Submit Festival
   </button>
 
-</form>
+</div>
