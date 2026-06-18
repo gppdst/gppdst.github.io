@@ -38,6 +38,66 @@ nav_order: 2
 
 <div id="map" style="height: 560px; width: 100%; border-radius: 8px; margin-bottom: 2rem;"></div>
 
+<div id="suggest-festival">
+  <h3>something missing? submit a festival</h3>
+  <form id="festival-form" action="https://formspree.io/f/xykaqnyg" method="POST">
+    <div class="form-group">
+      <label for="f-name">Title</label>
+      <input type="text" id="f-name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label>Theme</label>
+      <div class="checkbox-group">
+        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="science"> Science</label>
+        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="environment"> Environment</label>
+        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="society"> Society</label>
+        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="humanities"> Humanities</label>
+        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="education"> Education</label>
+        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="medicine"> Medicine</label>
+        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="technology"> Technology</label>
+        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="journalism"> Journalism</label>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="f-country">Country</label>
+        <input type="text" id="f-country" name="country" required>
+      </div>
+      <div class="form-group">
+        <label for="f-address">Address</label>
+        <input type="text" id="f-address" name="address" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Audience</label>
+      <div class="checkbox-group">
+        <label class="checkbox-label"><input type="checkbox" name="public[]" value="general public"> General public</label>
+        <label class="checkbox-label"><input type="checkbox" name="public[]" value="school"> Schools</label>
+        <label class="checkbox-label"><input type="checkbox" name="public[]" value="teachers"> Teachers</label>
+        <label class="checkbox-label"><input type="checkbox" name="public[]" value="business"> Business</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="f-website">Website</label>
+      <input type="url" id="f-website" name="website" placeholder="https://">
+    </div>
+
+    <div class="form-group newsletter-opt">
+      <label class="checkbox-label">
+        <input type="checkbox" name="newsletter" value="yes">
+        keep me updated
+      </label>
+    </div>
+
+    <button type="submit" class="submit-btn">Submit festival</button>
+    <p id="form-success" style="display:none;">Thanks! Your suggestion has been sent.</p>
+  </form>
+</div>
+
 <script>
 const THEME_COLORS = {
   science:     '#3a86ff',
@@ -184,169 +244,3 @@ document.querySelectorAll('.fbtn').forEach(btn => {
   });
 });
 </script>
---- %Formm
-<style>
-.fbtn {
-  padding: 0.25rem 0.7rem;
-  border-radius: 20px;
-  border: 1.5px solid #ccc;
-  background: white;
-  cursor: pointer;
-  font-size: 0.78rem;
-  transition: all 0.15s;
-  color: #333;
-}
-.fbtn:hover { background: #f5f5f5; }
-.fbtn.active {
-  background: var(--c, #333);
-  border-color: var(--c, #333);
-  color: white;
-}
-.fbtn[data-value=""].active {
-  background: #333;
-  border-color: #333;
-  color: white;
-}
-.tag {
-  display: inline-block;
-  background: #f0f0f0;
-  border-radius: 10px;
-  padding: 0.1rem 0.45rem;
-  font-size: 0.72rem;
-  margin: 0.1rem;
-  color: #555;
-}
-#map { margin-bottom: 2rem; }
-@media (max-width: 768px) {
-  #map { height: 420px; margin-bottom: 4rem; }
-}
-</style>
-
-<style>
-
-.submit-card{
-  max-width:700px;
-  margin:2rem auto 0;
-  padding:1rem 1.2rem;
-  border:1px solid var(--global-divider-color);
-  border-radius:12px;
-  background:var(--global-bg-color);
-}
-
-.submit-card p{
-  margin-bottom:1rem;
-  color:var(--global-text-color-light);
-  font-size:.9rem;
-}
-
-.submit-card input[type=text],
-.submit-card input[type=url]{
-  width:100%;
-  padding:.65rem .8rem;
-  border:1px solid var(--global-divider-color);
-  border-radius:8px;
-  margin-bottom:.8rem;
-}
-
-.grid-2{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:.6rem;
-}
-
-.tag-row{
-  display:flex;
-  flex-wrap:wrap;
-  gap:.4rem;
-  margin-bottom:.8rem;
-}
-
-.tag-label{
-  font-size:.8rem;
-  color:#666;
-  align-self:center;
-  margin-right:.3rem;
-}
-
-.tag-btn{
-  border:none;
-  background:#f3f4f6;
-  color:#444;
-  border-radius:999px;
-  padding:.3rem .8rem;
-  font-size:.85rem;
-  cursor:pointer;
-}
-
-.submit-btn{
-  width:100%;
-  padding:.75rem;
-  border:none;
-  border-radius:8px;
-  cursor:pointer;
-}
-
-</style>
-
-<div class="submit-card">
-
-  <p>
-    Know a festival that is missing?
-    Help us improve the database.
-  </p>
-
-  <input
-    type="text"
-    placeholder="Festival title"
-  >
-
-  <div class="grid-2">
-
-    <input
-      type="text"
-      placeholder="Country"
-    >
-
-    <input
-      type="text"
-      placeholder="City / Venue"
-    >
-
-  </div>
-
-  <div class="tag-row">
-    <span class="tag-label">Theme</span>
-
-    <button class="tag-btn">Science</button>
-    <button class="tag-btn">Environment</button>
-    <button class="tag-btn">Society</button>
-    <button class="tag-btn">Humanities</button>
-    <button class="tag-btn">Education</button>
-    <button class="tag-btn">Medicine</button>
-    <button class="tag-btn">Technology</button>
-  </div>
-
-  <div class="tag-row">
-    <span class="tag-label">Audience</span>
-
-    <button class="tag-btn">General public</button>
-    <button class="tag-btn">Schools</button>
-    <button class="tag-btn">Teachers</button>
-    <button class="tag-btn">Business</button>
-  </div>
-
-  <input
-    type="url"
-    placeholder="Website"
-  >
-
-  <label style="font-size:.85rem;">
-    <input type="checkbox">
-    Keep me informed about updates
-  </label>
-
-  <button class="submit-btn">
-    Submit Festival
-  </button>
-
-</div>
