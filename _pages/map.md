@@ -42,48 +42,53 @@ nav_order: 2
   <h3>something missing? submit a festival</h3>
   <form id="festival-form" action="https://formspree.io/f/xykaqnyg" method="POST">
     <div class="form-group">
-      <label for="f-name">Title</label>
+      <label for="f-name">Title <span class="required">*</span></label>
       <input type="text" id="f-name" name="name" required>
     </div>
 
     <div class="form-group">
       <label>Theme</label>
-      <div class="checkbox-group">
-        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="science"> Science</label>
-        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="environment"> Environment</label>
-        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="society"> Society</label>
-        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="humanities"> Humanities</label>
-        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="education"> Education</label>
-        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="medicine"> Medicine</label>
-        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="technology"> Technology</label>
-        <label class="checkbox-label"><input type="checkbox" name="theme[]" value="journalism"> Journalism</label>
+      <div class="chip-group" data-name="theme[]">
+        <button type="button" class="chip" data-value="science">Science</button>
+        <button type="button" class="chip" data-value="environment">Environment</button>
+        <button type="button" class="chip" data-value="society">Society</button>
+        <button type="button" class="chip" data-value="humanities">Humanities</button>
+        <button type="button" class="chip" data-value="education">Education</button>
+        <button type="button" class="chip" data-value="medicine">Medicine</button>
+        <button type="button" class="chip" data-value="technology">Technology</button>
+        <button type="button" class="chip" data-value="journalism">Journalism</button>
       </div>
     </div>
 
     <div class="form-row">
       <div class="form-group">
         <label for="f-country">Country</label>
-        <input type="text" id="f-country" name="country" required>
+        <input type="text" id="f-country" name="country">
       </div>
       <div class="form-group">
         <label for="f-address">Address</label>
-        <input type="text" id="f-address" name="address" required>
+        <input type="text" id="f-address" name="address">
       </div>
     </div>
 
     <div class="form-group">
       <label>Audience</label>
-      <div class="checkbox-group">
-        <label class="checkbox-label"><input type="checkbox" name="public[]" value="general public"> General public</label>
-        <label class="checkbox-label"><input type="checkbox" name="public[]" value="school"> Schools</label>
-        <label class="checkbox-label"><input type="checkbox" name="public[]" value="teachers"> Teachers</label>
-        <label class="checkbox-label"><input type="checkbox" name="public[]" value="business"> Business</label>
+      <div class="chip-group" data-name="public[]">
+        <button type="button" class="chip" data-value="general public">General public</button>
+        <button type="button" class="chip" data-value="school">Schools</button>
+        <button type="button" class="chip" data-value="teachers">Teachers</button>
+        <button type="button" class="chip" data-value="business">Business</button>
       </div>
     </div>
 
     <div class="form-group">
-      <label for="f-website">Website</label>
-      <input type="url" id="f-website" name="website" placeholder="https://">
+      <label for="f-description">Short description</label>
+      <textarea id="f-description" name="description" rows="3" placeholder="A couple of sentences about the festival..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="f-website">Website <span class="required">*</span></label>
+      <input type="url" id="f-website" name="website" placeholder="https://" required>
     </div>
 
     <div class="form-group newsletter-opt">
